@@ -61,7 +61,8 @@ dtb-$(CONFIG_CLK_RK3328) += \
 	rk3328-pwm2.dtbo \
 	rk3328-uart1.dtbo \
 	rk3328-uart2-m1.dtbo \
-	rk3328-spi0-spidev.dtbo
+	rk3328-spi0-spidev.dtbo \
+	rk3328-usb20-devices.dtbo
 
 dtb-$(CONFIG_CLK_RK3399) += \
 	rk3399-disable-fiq-debugger.dtbo \

@@ -6,11 +6,11 @@
 
 / {
 	metadata {
-		title ="Enable Radxa Camera 8M 219";
+		title ="Enable Radxa Camera AR0234";
 		compatible = "radxa,rock-5a", "radxa,rock-5c";
 		category = "camera";
 		exclusive = "csi2_dphy0";
-		description = "Enable Radxa Camera 8M 219.";
+		description = "Enable Radxa Camera AR0234.";
 	};
 };
 
@@ -34,7 +34,6 @@
 		clock-output-names = "clk_cam_24m";
 		#clock-cells = <0>;
 	};
-	
 };
 
 &i2c3 {
